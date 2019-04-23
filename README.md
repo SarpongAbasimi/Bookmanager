@@ -1,15 +1,15 @@
 <h1 align='center'>
-Bookmark Manager
+Bookmark Manager.
 </h1>
 
 <h4 align='center'>
-User stories
+User stories.
 </h4>
 
 ``` 
-As a User
+As a User,
 So that I can select from my favourite bookmarks,
-I would like to see a list of my bookmarks
+I would like to see a list of my bookmarks.
 ```
 <h4 align='center'>
 Domain Model
