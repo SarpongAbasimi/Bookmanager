@@ -7,8 +7,8 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @book = Bookmark.new.list
-    erb :bookmarks
+    @bookmarks = Bookmark.new.list
+    erb :'bookmarks/index'
   end
 
   run! if __FILE__ == $0
