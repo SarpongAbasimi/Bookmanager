@@ -23,16 +23,17 @@ Database Setup
 </h4>
 
 - Before you start.
-- check if you have homebrew installed with ``brew -v``
-- If you have go the the next step else copy and paste this in terminal ``mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew ``.
+- check if you have homebrew installed with ``brew - v``.
+- If you have, go the the next step else copy and paste this in your terminal ``mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew ``.
 - `` Brew install postgresql``.
 - Wait for it it install.
-- Then install brew services with ``brew services``
+- Then install brew services with ``brew services``.
 - To start server type `` Brew services start postgresql``.
 - Now type ``psql postgres`` to switch to posgres database.
-- type CREATE DATABASE ``bookmark_manager``;
+- Type CREATE DATABASE ``bookmark_manager``.
 - To switch or connect to ``bookmark_manager`` type `` \c  bookmark_manager``.
-- bookmark_manager=# ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));`` will create a table in the bookmark_manager database with two columns ``id`` and ``url ``
+- bookmark_manager=# ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));`` 
+- This will create a table in the bookmark_manager database with two columns ``id`` and ``url ``
 
 |    id |   url  |
 | :---: | :---: |
