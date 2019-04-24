@@ -6,7 +6,7 @@ RSpec.describe Bookmark do
 
   describe '#list' do
     it 'shows a list of bookmarks' do
-      expect(bookmark.list).to eq(bookmark_list)
+      expect(bookmark.all).to eq(bookmark_list)
     end
   end
 end
