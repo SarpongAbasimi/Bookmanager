@@ -37,11 +37,6 @@ Database Setup
 |    id |   url  |
 | :---: | :---: |
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
 
 - The table will be ``empty`` for now.
 - Execute SQL queries in order in db/migrations folder.
