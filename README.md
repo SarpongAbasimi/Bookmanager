@@ -34,15 +34,17 @@ Database Setup
 - To switch or connect to ``bookmark_manager`` type `` \c  bookmark_manager``.
 - bookmark_manager=# ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));`` will create a table in the bookmark_manager database with two columns ``id`` and ``url ``
 
-|    id     |   url  |
-| :-----:|   | :----: |
+|    id |   url  |
+| :---: | :---: |
+
 
 - The table will be ``empty`` for now.
 - Execute SQL queries in order in db/migrations folder.
 - This will create something like this
 
+
 |    id     |   url            |
-| :-----:   | :----:           |
+| :---:     |   :---:          |
 | 1         | www.google.com   |
 | 2         | www.youtube.com  |
 | 3         | www.instagram.com|
