@@ -55,3 +55,9 @@ Database Setup
 Setting Up A Test Database
 </h4>
 
+- Type ``psql`` in terminal.
+
+- Type ``CREATE DATABASE bookmark_manager_test`` to create a database.
+
+- Type ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));`` 
+
