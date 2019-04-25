@@ -50,3 +50,9 @@ Database Setup
 | 2         | www.youtube.com  |
 | 3         | www.instagram.com|
 
+
+<h4 align='center'>
+Setting Up A Test Database
+</h4>
+
+Currently, the sinatra application is pulling its data from our database which is great but when we run the ``rspec`` test it fails. This is because rspec expects a certain output which is currently different from what our database is giving it.
