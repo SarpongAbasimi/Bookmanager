@@ -59,5 +59,5 @@ Setting Up A Test Database
 
 - Type ``CREATE DATABASE bookmark_manager_test`` to create a database.
 
-- Type ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));`` 
+- Type ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));`` .
 
