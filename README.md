@@ -6,13 +6,15 @@ Bookmark Manager.
 User stories.
 </h4>
 
+- First User Story.
 ``` 
 As a User,
 So that I can select from my favourite bookmarks,
 I would like to see a list of my bookmarks.
 
-> Second User Story.
-
+```
+- Second User Story.
+```
 As a User,
 so that I can store my favourite bookmarks,
 I would like to be able to add a bookmark.
