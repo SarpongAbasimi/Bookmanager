@@ -10,6 +10,12 @@ User stories.
 As a User,
 So that I can select from my favourite bookmarks,
 I would like to see a list of my bookmarks.
+
+> Second User Story.
+
+As a User,
+so that I can store my favourite bookmarks,
+I would like to be able to add a bookmark.
 ```
 <h4 align='center'>
 Domain Model
@@ -62,3 +68,4 @@ Setting Up A Test Database
 - Type ``CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));``.
 
 - Look inside ``./spec/setup_test_database`` & ``spec_helper`` to find out more.
+
